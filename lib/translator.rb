@@ -9,7 +9,7 @@ def load_library(filepath)
 
   yml.each do |k,v|
     lib["get_meaning"][v[1]] = k
-    lib["get_emoticon"][v[1]] = k
+    lib["get_emoticon"][v[0]] = k
   end
   binding.pry
   lib
