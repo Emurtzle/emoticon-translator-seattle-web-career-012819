@@ -3,8 +3,8 @@ require "pry"
 
 def load_library(filepath)
   lib = {}
-  lib[:get_emoticon] = {}
-  lib[:get_meaning] = {}
+  lib["get_emoticon"] = {}
+  lib["get_meaning"] = {}
   lib
 end
 
