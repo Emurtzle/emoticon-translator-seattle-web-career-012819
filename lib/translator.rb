@@ -3,7 +3,7 @@ require "pry"
 
 def load_library(filepath)
   lib = {}
-  binding.pry
+  #binding.pry
 end
 
 def get_japanese_emoticon
