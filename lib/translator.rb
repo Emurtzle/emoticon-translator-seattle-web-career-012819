@@ -30,6 +30,6 @@ def get_english_meaning(filepath, emot)
   if lib["get_meaning"][emot] == nil
     "Sorry, that emoticon was not found"
   else
-    lib["get_emoticon"][emot]
+    lib["get_meaning"][emot]
   end
 end
