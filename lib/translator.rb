@@ -6,7 +6,6 @@ def load_library(filepath)
   lib[:get_emoticon] = {}
   lib[:get_meaning] = {}
   lib
-  #binding.pry
 end
 
 def get_japanese_emoticon
