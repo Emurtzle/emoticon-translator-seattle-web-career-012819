@@ -6,7 +6,10 @@ def load_library(filepath)
   lib = {}
   lib["get_emoticon"] = {}
   lib["get_meaning"] = {}
-  binding.pry
+
+  yml.each do |k,v|
+    binding.pry
+  end
   lib
 end
 
