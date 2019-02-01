@@ -2,6 +2,7 @@ require "yaml"
 require "pry"
 
 def load_library(filepath)
+  yml = YAML.load_file(filepath)
   lib = {}
   lib["get_emoticon"] = {}
   lib["get_meaning"] = {}
