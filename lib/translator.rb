@@ -1,4 +1,5 @@
 require "yaml"
+require "pry"
 
 def load_library(filepath)
   lib = YAML.load_file(filepath)
