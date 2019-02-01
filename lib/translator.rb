@@ -18,8 +18,6 @@ def get_japanese_emoticon(filepath, emot)
   lib = load_library(filepath)
 
   lib["get_emoticon"][emot]
-
-  binding.pry
 end
 
 def get_english_meaning
