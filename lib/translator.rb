@@ -4,8 +4,8 @@ require "pry"
 def load_library(filepath)
   yml = YAML.load_file(filepath)
   lib = {}
-  lib["get_emoticon"] = {}
   lib["get_meaning"] = {}
+  lib["get_emoticon"] = {}
 
   yml.each do |k,v|
     lib["get_meaning"][v[1]] = k
