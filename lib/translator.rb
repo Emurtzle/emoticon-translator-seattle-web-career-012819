@@ -8,6 +8,7 @@ def load_library(filepath)
   lib["get_meaning"] = {}
 
   yml.each do |k,v|
+    lib["get_meaning"][v[1]] = k
     binding.pry
   end
   lib
